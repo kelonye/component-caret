@@ -1,0 +1,31 @@
+.component-caret{
+  position: relative;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.component-caret:before, .component-caret:after{
+  position: absolute;
+  top: 11px;
+  left: -16px;
+  right: 100%;
+  width: 0;
+  height: 0;
+  display: block;
+  content: " ";
+  border-color: transparent;
+  border-style: solid solid outset;
+  pointer-events: none;
+}
+
+.component-caret:before{
+  border-width: 8px;
+}
+
+.component-caret:after{
+  border-width: 7px;
+  margin-top: 1px;
+  margin-left: 2px;
+}

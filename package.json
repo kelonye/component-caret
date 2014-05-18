@@ -1,0 +1,8 @@
+{
+  "name": "component-caret",
+  "version": "0.0.1",
+  "dependencies": {
+    "component-hooks": "0.2.1"
+  },
+  "license": "MIT"
+}

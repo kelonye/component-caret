@@ -1,0 +1,8 @@
+{
+  "name": "component-caret",
+  "version": "0.0.1",
+  "styles": [
+    "lib/style.css"
+  ],
+  "license": "MIT"
+}
